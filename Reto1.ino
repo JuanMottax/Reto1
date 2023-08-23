@@ -20,7 +20,7 @@ const char ssid[] = "TP-Link_38B4";
 const char pass[] = "34335536";
 
 //Usuario uniandes sin @uniandes.edu.co
-#define HOSTNAME "nodeMCU-hostname"
+#define HOSTNAME "jr.diaz"
 
 //Conexión a Mosquitto
 const char MQTT_HOST[] = "iotlab.virtual.uniandes.edu.co";
@@ -29,7 +29,7 @@ const int MQTT_PORT = 8082;
 const char MQTT_USER[] = "jr.diaz";
 //Contraseña de MQTT que recibió por correo
 const char MQTT_PASS[] = "201922167";
-const char MQTT_SUB_TOPIC[] = HOSTNAME "jr.diaz";
+const char MQTT_SUB_TOPIC[] = HOSTNAME "/";
 //Tópico al que se enviarán los datos de humedad
 const char MQTT_PUB_TOPIC1[] = "luminocidad/bogota/" HOSTNAME;
 
